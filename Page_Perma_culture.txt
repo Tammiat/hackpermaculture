@@ -1,3 +1,0 @@
-Page acceuil
-Page standard
-Page qui correspond à la spécificité du projet, dédiée à une fonctionnalité
