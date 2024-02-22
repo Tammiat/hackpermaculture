@@ -1,4 +1,25 @@
+#presentation {
+    height: 75vh;
+    width: 100%;
 
-# #video {}
+}
 
-#videotitle {}
+.focus {
+    height: 100;
+    width: 80%;
+    
+
+}
+
+#video {
+    height: 100%;
+    width: 50%;
+
+
+}
+
+#videotitle {
+    height: 100%;
+    width: 50%;
+
+}
