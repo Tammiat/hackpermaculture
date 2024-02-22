@@ -23,7 +23,7 @@ section {
     display: flex;
 }
 figure {
-    width: var(--figure);
+    height: var(--figure);
 }
 figure img {
     width: var(--imgFigure);
