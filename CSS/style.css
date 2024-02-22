@@ -20,4 +20,21 @@ header nav{
     
 
     
+}.focus {
+    display: flex;
+    align-items: stretch; /*center*/
+    width: 100%; /* Adjusted to fill the entire width */
+    padding-left: 5%;
+    
 }
+
+#legumesSec1 {
+    /* Updated styles for both images */
+    margin: 0; /* Remove margin to prevent unwanted space */
+    padding: 0; /* Remove padding */
+    max-width: 50%; /* Each image takes up half of the section width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5%;
+    
+}
+
