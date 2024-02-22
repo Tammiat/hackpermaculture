@@ -34,19 +34,46 @@ justify-content: space-between;
 
 
 /******************************************Début séction 1************************************************/
-
-
-
-#legumesSec1 {/*id de la figure*/   
-    max-width: 50%; /* Each image takes up half of the section width */
-    height: auto; /* Maintain aspect ratio */
-  
-    
+#permaculture{
+   /* display: flex;*/
+    border: 15px solid #294936;
+    background-color: #f7f4f3;
+    align-items: center;
+    height: auto;
 }
+
+
+#legumesSec1 {
+    width: 100%;
+}
+#legumesSec1 img{
+    width: 100%;
+}
+.div-figure {
+   width: 30%;
+   padding : 40px;
+}
+
+.div-figure {
+    width: 30%;
+ }
+ 
 
 #sec1P {
-    max-width: 40%; 
+    /*max-width: 40%;
+    height: auto;
+    align-items: center;
+    text-align: justify;
+    margin: auto;*/
+    width: 70%;
+    padding-right: 40px;
+    text-align: justify;
+
 }
+#sec1P h1, #sec1P h2, #sec1P p {
+    margin: 10px 0; 
+}
+
 /* *****section2 ******/
 
 #video {
