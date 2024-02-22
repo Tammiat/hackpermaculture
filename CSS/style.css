@@ -27,8 +27,7 @@ header nav{
 .focus { /*id de la div de la première section*/
     display: flex;
     align-items: stretch;
-    width: 80%;
-    
+    width: 80%;  
 }
 
 #legumesSec1 {/*id de la figure*/
