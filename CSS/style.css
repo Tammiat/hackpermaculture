@@ -23,8 +23,7 @@ header nav{
 
 .focus { /*id de la div de la première section*/
     display: flex;
-    align-items: stretch;
-    width: 80%;  
+    border: 2px solid red;
 }
 
 #legumesSec1 {/*id de la figure*/
@@ -34,6 +33,10 @@ header nav{
     max-width: 50%; /* Each image takes up half of the section width */
     height: auto; /* Maintain aspect ratio */
     margin-right: 5%;
+    
+}
+
+#sec1P {
     
 }
 /* *****section2 ******/
