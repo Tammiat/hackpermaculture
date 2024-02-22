@@ -19,10 +19,7 @@ header nav{
     margin: 15px;    
 }
 /******************************************Début séction 1************************************************/
-#permaculture {  /*id section*/
-    height: 75vh;
 
-}
 
 .focus { /*id de la div de la première section*/
     display: flex;
@@ -55,11 +52,6 @@ header nav{
 
 }
 
-#presentation {
-    height: 75vh;
-    width: 100%;
-
-}
 
 /******section3***** */
 
