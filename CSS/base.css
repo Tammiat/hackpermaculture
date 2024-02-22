@@ -10,12 +10,15 @@ ul{
     list-style: none;
 }
 a{
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 section {
     height: var(--section);
 }
 .focus {
+    display: flex;
+    justify-content: space-between;
     width: var(--divParent);
     max-width: 1200px;
     margin: 0 auto;
@@ -25,4 +28,9 @@ figure {
 }
 figure img {
     width: var(--imgFigure);
+}
+
+.div-figure {
+    height:80%;
+    margin: auto;
 }

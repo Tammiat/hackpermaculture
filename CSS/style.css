@@ -22,9 +22,7 @@ header nav{
 
 
 
-#legumesSec1 {/*id de la figure*/
-    
-    
+#legumesSec1 {/*id de la figure*/   
     max-width: 50%; /* Each image takes up half of the section width */
     height: auto; /* Maintain aspect ratio */
   
@@ -61,7 +59,7 @@ header nav{
 #missions .focus {
     border: 2px solid blue;
 }
-#colonnes{
+.colonnes{
     border: 2px solid brown;
     display: flex;
     padding: 5px;
