@@ -1,3 +1,12 @@
+#presentation {
+    height: 75vh;
+    width: 100%;
+
+}
+
+.focus {
+    height: 100;
+    width: 80%;
 header{
     height: 100vh;
     background: url(../img/couple-senior-recolte-carottes.jpg);
@@ -38,3 +47,20 @@ header nav{
     
 }
 
+    
+
+
+}
+
+#video {
+    height: 100%;
+    width: 50%;
+
+
+}
+
+#videotitle {
+    height: 100%;
+    width: 50%;
+
+}
