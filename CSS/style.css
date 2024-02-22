@@ -56,7 +56,7 @@ header nav{
     border: 2px solid salmon;
     width: 50%;
 }
-#missions .focus {
+#missions{
     border: 2px solid blue;
 }
 .colonnes{
@@ -64,5 +64,9 @@ header nav{
     display: flex;
     padding: 5px;
     gap: 20px;
+}
+
+#missions .cards img{
+    height: 450px;
 }
 /* FOOTER */

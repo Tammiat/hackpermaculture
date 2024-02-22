@@ -19,9 +19,8 @@ section {
 .focus {
     display: flex;
     justify-content: space-between;
-    width: var(--divParent);
-    max-width: 1200px;
     margin: 0 auto;
+    display: flex;
 }
 figure {
     width: var(--figure);
