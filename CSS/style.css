@@ -23,21 +23,21 @@ header nav{
 
 .focus { /*id de la div de la première section*/
     display: flex;
-    border: 2px solid red;
+    border: 5px solid #294936;
+    align-items: center;
 }
 
 #legumesSec1 {/*id de la figure*/
     
-    margin: 0; /* Remove margin to prevent unwanted space */
-    padding: 0; /* Remove padding */
+    
     max-width: 50%; /* Each image takes up half of the section width */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 5%;
+  
     
 }
 
 #sec1P {
-    
+    max-width: 40%; 
 }
 /* *****section2 ******/
 
