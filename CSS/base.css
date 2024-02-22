@@ -15,3 +15,12 @@ a{
 section {
     height: var(--section);
 }
+.focus {
+    width: var(--divParent);
+}
+figure {
+    width: var(--figure);
+}
+figure img {
+    width: var(--imgFigure);
+}
