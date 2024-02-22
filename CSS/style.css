@@ -21,11 +21,6 @@ header nav{
 /******************************************Début séction 1************************************************/
 
 
-.focus { /*id de la div de la première section*/
-    display: flex;
-    border: 5px solid #294936;
-    align-items: center;
-}
 
 #legumesSec1 {/*id de la figure*/
     
@@ -54,8 +49,22 @@ header nav{
 
 }
 
-
 /******section3***** */
 
-
+#missions{
+    border: 2px solid pink;
+}
+#missions .cards{
+    border: 2px solid salmon;
+    width: 50%;
+}
+#missions .focus {
+    border: 2px solid blue;
+}
+#colonnes{
+    border: 2px solid brown;
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+}
 /* FOOTER */
