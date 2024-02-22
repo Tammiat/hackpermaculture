@@ -1,6 +1,15 @@
+#presentation {
+    height: 75vh;
+    width: 100%;
+
+}
+
+.focus {
+    height: 100;
+    width: 80%;
 header{
     height: 100vh;
-    background: url(img/);
+    background: url(../img/couple-senior-recolte-carottes.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -15,7 +24,7 @@ header nav{
      top: 0;
     right: 0;
     padding: 10px;
-    background-color: rgba(0,0,0,1);
+    background-color: white;
     margin: 15px;    
 }
 /******************************************Début séction 1************************************************/
@@ -40,4 +49,20 @@ header nav{
     margin-right: 5%;
     
 }
+    
 
+
+}
+
+#video {
+    height: 100%;
+    width: 50%;
+
+
+}
+
+#videotitle {
+    height: 100%;
+    width: 50%;
+
+}
