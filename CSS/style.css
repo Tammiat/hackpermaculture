@@ -51,7 +51,9 @@ header nav{
     width: 50%;
 
 }
-
+#missions{
+    border: 2px solid pink;
+}
 
 /******section3***** */
 
