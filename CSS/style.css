@@ -43,15 +43,17 @@ nav ul {
 
 /******************************************Début séction 1************************************************/
 #permaculture {
-    /* display: flex;*/
     border: 15px solid #294936;
     background-color: rgba(247, 244, 243,0.5);
     align-items: center;
     height: auto;
+    padding: 30px;
+}
 
     h1 {
     font-size: 64px;
     color: #482728;
+   
     }
 
     
@@ -64,7 +66,7 @@ nav ul {
     p{
      font-size: 20px;
     }
-}
+
 
 
 #legumesSec1 {
@@ -76,23 +78,14 @@ nav ul {
 }
 
 .div-figure {
-    width: 30%;
+    width: 50%;
     padding: 40px;
 }
 
-.div-figure {
-    width: 30%;
-}
 
 
 #sec1P {
-    /*max-width: 40%;
-    height: auto;
-    align-items: center;
-    text-align: justify;
-    margin: auto;*/
-    width: 70%;
-    padding-right: 40px;
+    width: 50%;
     text-align: justify;
 
 }
@@ -114,13 +107,14 @@ color: #294936;
     border: 15px solid #294936;
     /*background-color: #F7F4F3;*/
     background-color: rgba(247, 244, 243,0.5);
+    height: auto;
 
 }
 
 .video {
     /* its focus + video to diffrentiate between other focus tags*/
     align-items: center;
-    padding-top: 115px;
+
     padding-left: 30px;
 }
 
@@ -129,7 +123,7 @@ color: #294936;
     /* actual video sizing */
     margin: 0 auto;
     padding: 20px;
-    max-width: 50%;
+    width: 40%;
     height: auto;
     align-items: center;
     margin-left: auto;
@@ -138,6 +132,7 @@ color: #294936;
 }
 
 #videotitle h4 {
+    width: 60%;
     font-size: 60px;
     color: #482728;
     margin: 0;
@@ -331,4 +326,93 @@ footer {
 }
 .gros-paragraphe p {
     color: #482728;
+}
+
+@media screen AND (max-width: 600px){
+
+    html, body {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    header {
+        background: url(../img/couple-senior-recolte-carottes.jpg);
+        background-size: cover;
+        text-align: center;
+        background-position: center center;
+    }
+    
+    nav {
+        position: fixed;
+        background-color: white;
+        bottom: 0;
+        width: 100%;
+        font-size: 16px;
+        color:#294936;
+        flex-direction: column;
+        ul {
+            width: 50vw;
+      margin: 0 auto;
+        }
+    }
+
+    #permaculture{
+        flex-direction: column;
+        
+
+        h1{
+            font-size: 30px;
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+   
+        div{
+            margin-bottom: 30px;
+        }
+
+        
+    }
+
+    #presentation 
+    {
+        .video{
+            flex-direction: column;
+        }
+        #video {
+            width: 90%;
+            padding: 0;
+        }
+        #videotitle {
+            width: 100%;
+        }
+    }
+
+    #sec1P {
+        width: 100%;
+        text-align: justify;
+    
+    }
+
+    .div-figure {
+        width: 100%;
+
+    }
+
+    #missions {
+        height: auto;
+        #container {
+            flex-direction: column;
+        }
+
+        .cards {
+            width: 100%;
+        }
+        .cards:nth-of-type(2) {
+            margin: 20px 0;
+        }
+    }
 }
