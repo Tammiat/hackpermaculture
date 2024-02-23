@@ -28,23 +28,28 @@ nav {
     font-size: 16px;
     font-weight: bolder;
     color:#294936;
+    z-index: 1000;
+    a{
+     color: #294936;
+     }
 }
 
 nav ul {
-    background: white;
+    background: #F7F4F3;
     width: 30vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    border: solid 1px #294936;    border-radius: 1px;
+    border: solid 1px #294936;    
+    border-radius: 5px;
 
 }
 
 
 /******************************************Début séction 1************************************************/
 #permaculture {
-    border: 15px solid #294936;
+    border: 10px solid #294936;
     background-color: rgba(247, 244, 243,0.5);
     align-items: center;
     height: auto;
@@ -53,19 +58,22 @@ nav ul {
 }
 
     h1 {
-    font-size: 64px;
+    font-size: 42px;
     color: #482728;
+    margin-bottom: 20px;
    
     }
 
     
-     h4 {
-    font-size: 32px;
-    color: #482728;
+    h4 {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;
 }
 
     p{
-     font-size: 20px;
+     font-size: 12px;
+     line-height: 20px;
     }
 
 
@@ -107,39 +115,44 @@ color: #294936;
 /****** section2 ******/
 
 #presentation {
-    border: 15px solid #294936;
+    border: 10px solid #294936;
     /*background-color: #F7F4F3;*/
     background-color: rgba(247, 244, 243,0.5);
     height: auto;
 
 }
 
+.focus.video{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .video {
     /* its focus + video to diffrentiate between other focus tags*/
     align-items: center;
-
-    padding-left: 30px;
+   
 }
 
 
 #video {
-    /* actual video sizing */
-    margin: 0 auto;
-    padding: 20px;
+    
     width: 40%;
     height: auto;
     align-items: center;
-    margin-left: auto;
-
 
 }
 
+#videotitle {
+ padding-left: 30px;
+}
+
+
+
 #videotitle h4 {
-    width: 60%;
-    font-size: 40px;
+    font-size: 50px;
     color: #482728;
-    margin: 0;
-    padding: 20px;
     align-items: center;
 }
 
@@ -152,11 +165,7 @@ iframe{
 #videotitle h5 {
     font-size: 30px;
     color: black;
-    margin: 0;
-    padding: 20px;
     align-items: center;
-
-
 
 }
 
@@ -166,10 +175,14 @@ iframe{
     /*background-color: #294936;*/
     background-color : rgba(41, 73, 54,0.94);
 }
+#PermaBasics {
+    height: auto;
+}
 #PermaBasics .cards {
     width: 30%;
     height: 40%;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -200,22 +213,37 @@ iframe{
 #PermaBasics  .cards:nth-of-type(1) figure {
 
     background-image: url(../img/permahh.png);
-    background-position: center bottom;
+    background-position: center center;
 }
 #PermaBasics  .cards:nth-of-type(2) figure {
 
     background-image: url(../img/animaux.png);
-    background-position: center bottom;
+    background-position: center center;
 }
 #PermaBasics  .cards:nth-of-type(3) figure {
 
     background-image: url(../img/permaculturehumaine.png);
-    background-position: center bottom;
+    background-position: center center;
 }
 #PermaBasics .container {
     display: flex;
     width: 90%;
     margin: auto auto;
+}
+#PermaBasics h3{
+padding-top: 10px;
+font-size: 22px;
+color: #482728;
+}
+
+#PermaBasics p{
+    color:#294936
+    }
+    #PermaBasics h2 {
+    text-align: center;
+    color: #482728;
+    font-size: 30px;
+    padding-top: 15px;
 }
 #missions {
     /*background-color: #294936;*/
@@ -224,10 +252,9 @@ iframe{
 
 #missions .cards {
     width: 50%;
-    height: 75vh;
+    
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+
     justify-content: space-between;
    
 }
@@ -237,7 +264,7 @@ iframe{
 }
 
 #missions .cards figure {
-    height: 1000px;
+    height: 300px;
     background-size: cover;
     background-position: center center;
     border-radius: 2px;
@@ -265,35 +292,36 @@ iframe{
 #missions h2 {
     text-align: center;
     color: #E1F690;
-    font-size: 35px;
+    font-size: 30px;
+    padding-top: 15px;
 }
 
 #missions h3 {
     margin: 10px;
     color: #E1F690;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #missions p {
     color: #F7F4F3;
-    font-size: 20px;
+    font-size: 12px;
     text-align: justify;
 }
 
-.container {
+#missions .container {
     display: flex;
     width: 90%;
     margin: auto auto;
 }
 
 #missions button {
-    padding: 8px;
+    padding: 10px;
     border: none;
     background-color: #482728;
     border-radius: 5px;
     margin: 10px;
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #missions button:hover {
@@ -304,12 +332,15 @@ iframe{
 }
 
 #missions {
-    height: 90vh;
+    height: auto;
 }
 .hashtags {
     height: 20%;
 }
 
+#missions a{
+color: #F7F4F3;
+}
 /* FOOTER */
 footer {
     display: flex;
@@ -324,7 +355,8 @@ footer {
 
     h3 {
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 22px;
+        color: #482728;
     }
 
     img {
@@ -334,18 +366,23 @@ footer {
     }
 
     ul li {
-        padding: 5px 0;
+        display: flex;
         color: #482728;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     p{
         color: #482728;
-        font-size: 15px;
+        font-size: 12px;
         text-align: justify;
         font-weight: bold;
     }
 
+}
+
+footer a{
+
+    color: #482728;
 }
 
 footer div {
@@ -361,6 +398,8 @@ footer div {
 }
 footer {
     background-image: url(../img/backFoot.png);
+    background-size: cover;
+  background-position: -230px;
 }
 
 /*******************************************Début mentions légales***************************************************/
@@ -428,7 +467,7 @@ footer {
         color:#294936;
         flex-direction: column;
         ul {
-            width: 50vw;
+            width: 90vw;
       margin: 0 auto;
         }
     }
@@ -480,7 +519,7 @@ footer {
 
     #missions {
         height: auto;
-        #container {
+        .container {
             flex-direction: column;
         }
 
@@ -490,5 +529,23 @@ footer {
         .cards:nth-of-type(2) {
             margin: 20px 0;
         }
+    }
+        
+    #PermaBasics .container{
+           
+            flex-direction: column;
+            padding: 0px;
+    }
+
+    #PermaBasics .cards {
+        width: 100%;
+    }
+
+    #PermaBasics .cards:nth-of-type(2) {
+        margin:  0;
+    }
+
+    #PermaBasics .cards:nth-of-type(3) {
+        margin:  0;
     }
 }
