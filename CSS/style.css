@@ -251,3 +251,44 @@ footer div {
 #logoFooter {
     width: 100px;
 }
+
+/*******************************************Début mentions légales***************************************************/
+/*********Titre de la page******************/
+#headerMLeg {
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#menLeg h1 {
+    color:#482728;
+    font-size: 30px;
+    text-align: center;
+}
+#mainMentions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+
+}
+
+.scroll-section {
+    max-height: 70vh;
+    overflow-y: scroll;
+    text-align: justify;
+    padding: 20px;
+    margin:5%;
+}
+.gros-paragraphe {
+    font-size: 18px; 
+    line-height: 1.52; 
+}
+.gros-paragraphe p {
+    color: #482728;
+}
