@@ -37,7 +37,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    border: solid 1px #294936;
+    border: solid 1px #294936;    border-radius: 1px;
+
 }
 
 
@@ -48,6 +49,7 @@ nav ul {
     align-items: center;
     height: auto;
     padding: 30px;
+    
 }
 
     h1 {
@@ -57,11 +59,10 @@ nav ul {
     }
 
     
-    h4 {
+     h4 {
     font-size: 32px;
     color: #482728;
-
-    }
+}
 
     p{
      font-size: 20px;
@@ -71,10 +72,12 @@ nav ul {
 
 #legumesSec1 {
     width: 100%;
+
 }
 
 #legumesSec1 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .div-figure {
@@ -138,9 +141,11 @@ color: #294936;
     margin: 0;
     padding: 20px;
     align-items: center;
+}
 
+iframe{
 
-
+    border-radius: 5px;
 }
 
 
@@ -184,12 +189,15 @@ color: #294936;
 
 #missions .cards:nth-of-type(1) figure {
 
-    background-image: url(../img/jeunesAgric.png);
-    background-position: center bottom;
+    background-image: url(../img/photomainenfant.jpeg);
+    background-position: center;
+
 }
 
 #missions .cards:nth-of-type(2) figure {
-    background-image: url(../img/serrePerma.png);
+    background-image: url(../img/photomainadulte.jpeg);
+    background-position: center;
+
 }
 
 #missions h2 {
