@@ -96,7 +96,7 @@ color: #294936;
 }
 
 
-/* *****section2 ******/
+/****** section2 ******/
 
 #presentation {
     border: 15px solid #294936;
@@ -107,40 +107,38 @@ color: #294936;
 .video {
     /* its focus + video to diffrentiate between other focus tags*/
     align-items: center;
+    padding-top: 115px;
+    padding-left: 30px;
 }
 
-.presentation-title {
-    width: 40%;
-
-}
 
 #video {
     /* actual video sizing */
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px;
     max-width: 50%;
     height: auto;
-    display: flex;
+    align-items: center;
+    margin-left: auto;
+
 
 }
 
-.titlename {
+#videotitle {
     font-size: 42px;
-    color: solid #482728;
+    color: #482728;
     margin: 0;
-    padding: 0;
-    max-width: 50%;
-    height: auto;
-    display: flex;
+    padding: 20px;
+    align-items: center;
+
 
 
 }
 
 
-/******SECTION 3***** */
+/******SECTION 3******/
 
 #missions {
-    border: 2px solid pink;
     background-color: #294936;
 }
 
@@ -151,7 +149,7 @@ color: #294936;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 2px solid;
+    border: 2px solid brown;
 }
 
 #missions .cards:nth-of-type(2) {
@@ -159,7 +157,7 @@ color: #294936;
 }
 
 #missions .cards figure {
-    height: 500px;
+    height: 1000px;
     background-size: cover;
     background-position: center center;
 }
@@ -167,6 +165,7 @@ color: #294936;
 #missions .cards:nth-of-type(1) figure {
 
     background-image: url(../img/jeunesAgric.png);
+    background-position: center bottom;
 }
 
 #missions .cards:nth-of-type(2) figure {
@@ -178,8 +177,7 @@ color: #294936;
     color: #E1F690;
 }
 
-#missions h3,
-p {
+#missions h3, p {
     margin: 10px;
     color: #E1F690;
 }
@@ -190,12 +188,12 @@ p {
 
 #container {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 #missions button {
-    padding: 5px;
+    padding: 8px;
     border: none;
     background-color: Brown;
     border-radius: 5px;
@@ -206,7 +204,7 @@ p {
 }
 
 #missions {
-    height: 85vh;
+    height: 90vh;
 }
 
 /* FOOTER */
