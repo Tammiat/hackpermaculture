@@ -137,7 +137,66 @@ color: #294936;
 
 
 /******SECTION 3******/
+#PermaBasics {
+    height: 90vh;
+    border: 10px solid #F7F4F3;
+    display: flex;
+    justify-content: center;
+}
+#PermaBasics {
+    background-color: #294936;
+}
+#PermaBasics .cards {
+    width: 30%;
+    height: 40%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: block;
+}
 
+.cards:hover{
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+#PermaBasics .cards:nth-of-type(2) {
+    margin-left: 50px;
+}
+#PermaBasics .cards:nth-of-type(3) {
+    margin-left: 50px;
+}
+
+
+#PermaBasics .cards figure {
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 2px;
+}
+
+#PermaBasics  .cards:nth-of-type(1) figure {
+
+    background-image: url(../img/permahh.png);
+    background-position: center bottom;
+}
+#PermaBasics  .cards:nth-of-type(2) figure {
+
+    background-image: url(../img/animaux.png);
+    background-position: center bottom;
+}
+#PermaBasics  .cards:nth-of-type(3) figure {
+
+    background-image: url(../img/permaculturehumaine.png);
+    background-position: center bottom;
+}
+#PermaBasics .container {
+    display: flex;
+    width: 90%;
+    margin: auto auto;
+}
 #missions {
     background-color: #294936;
 }
@@ -150,9 +209,9 @@ color: #294936;
     flex-direction: column;
     justify-content: space-between;
 }
-
+ 
 #missions .cards:nth-of-type(2) {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 #missions .cards figure {
@@ -162,7 +221,7 @@ color: #294936;
     border-radius: 2px;
 }
 
-#missions .cards:nth-of-type(1) figure {
+#missions  .cards:nth-of-type(1) figure {
 
     background-image: url(../img/jeunesAgric.png);
     background-position: center bottom;
@@ -170,8 +229,14 @@ color: #294936;
 
 #missions .cards:nth-of-type(2) figure {
     background-image: url(../img/serrePerma.png);
+    transition: transform .2s;
 }
 
+ .cards figure:hover {
+    -ms-transform: scale(0.980); /* IE 9 */
+  -webkit-transform: scale(0.980); /* Safari 3-8 */
+  transform: scale(0.980);
+}
 #missions h2 {
     text-align: center;
     color: #E1F690;
@@ -186,10 +251,10 @@ color: #294936;
     color: #F7F4F3;
 }
 
-#container {
+.container {
     display: flex;
     width: 90%;
-    margin: 0 auto;
+    margin: auto auto;
 }
 
 #missions button {
@@ -199,12 +264,18 @@ color: #294936;
     border-radius: 5px;
 }
 
+#missions button:hover {
+    background-color: #7D4345;
+}
 .cards .btnVisite {
     align-self: flex-end;
 }
 
 #missions {
     height: 90vh;
+}
+.hashtags {
+    height: 20%;
 }
 
 /* FOOTER */
