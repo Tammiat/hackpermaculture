@@ -125,7 +125,6 @@ nav ul {
 /******SECTION 3***** */
 
 #missions {
-    border: 2px solid pink;
     background-color: #294936;
 }
 
@@ -136,7 +135,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 2px solid;
+    border: 2px solid brown;
 }
 
 #missions .cards:nth-of-type(2) {
@@ -144,7 +143,7 @@ nav ul {
 }
 
 #missions .cards figure {
-    height: 500px;
+    height: 1000px;
     background-size: cover;
     background-position: center center;
 }
@@ -152,6 +151,7 @@ nav ul {
 #missions .cards:nth-of-type(1) figure {
 
     background-image: url(../img/jeunesAgric.png);
+    background-position: center bottom;
 }
 
 #missions .cards:nth-of-type(2) figure {
@@ -163,8 +163,7 @@ nav ul {
     color: #E1F690;
 }
 
-#missions h3,
-p {
+#missions h3, p {
     margin: 10px;
     color: #E1F690;
 }
@@ -175,12 +174,12 @@ p {
 
 #container {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 #missions button {
-    padding: 5px;
+    padding: 8px;
     border: none;
     background-color: Brown;
     border-radius: 5px;
@@ -191,7 +190,7 @@ p {
 }
 
 #missions {
-    height: 85vh;
+    height: 90vh;
 }
 
 /* FOOTER */
