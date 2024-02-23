@@ -40,6 +40,18 @@ nav ul {
     background-color: #f7f4f3;
     align-items: center;
     height: auto;
+
+    h1 {
+    font-size: 64px;
+    color: #482728;
+    }
+
+    
+    h4 {
+    font-size: 32px;
+    color: #482728;
+
+    }
 }
 
 
@@ -201,7 +213,6 @@ p {
 footer {
     display: flex;
     z-index: 100;
-    background-color: white;
     position: absolute;
     flex-direction: row;
     justify-content: space-between;
