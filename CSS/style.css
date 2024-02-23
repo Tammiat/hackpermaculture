@@ -64,23 +64,14 @@ nav ul {
 }
 
 .div-figure {
-    width: 30%;
+    width: 50%;
     padding: 40px;
 }
 
-.div-figure {
-    width: 30%;
-}
 
 
 #sec1P {
-    /*max-width: 40%;
-    height: auto;
-    align-items: center;
-    text-align: justify;
-    margin: auto;*/
-    width: 70%;
-    padding-right: 40px;
+    width: 50%;
     text-align: justify;
 
 }
