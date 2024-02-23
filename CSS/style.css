@@ -1,3 +1,11 @@
+body{
+
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+    }
+
 /***** header**** */
 header {
     height: 100vh;
@@ -37,7 +45,7 @@ nav ul {
 #permaculture {
     /* display: flex;*/
     border: 15px solid #294936;
-    background-color: #f7f4f3;
+    background-color: rgba(247, 244, 243,0.5);
     align-items: center;
     height: auto;
 
@@ -104,7 +112,8 @@ color: #294936;
 
 #presentation {
     border: 15px solid #294936;
-    background-color: #F7F4F3;
+    /*background-color: #F7F4F3;*/
+    background-color: rgba(247, 244, 243,0.5);
 
 }
 
@@ -154,7 +163,8 @@ color: #294936;
 /******SECTION 3******/
 
 #missions {
-    background-color: #294936;
+    /*background-color: #294936;*/
+    background-color : rgba(41, 73, 54,0.94);
 }
 
 #missions .cards {
@@ -277,6 +287,9 @@ footer div {
 
 #logoFooter {
     width: 100px;
+}
+footer {
+    background-image: url(../img/backFoot.png);
 }
 
 /*******************************************Début mentions légales***************************************************/
