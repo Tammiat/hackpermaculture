@@ -387,6 +387,8 @@ footer a{
 
 footer div {
     width: 33%;
+    padding-top: 80px;
+    border: 2px solid;
 }
 
 #logoDivFooter {
