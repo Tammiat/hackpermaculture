@@ -350,7 +350,7 @@ footer {
     justify-content: space-between;
     padding: 20px;
     background-color: #F7F4F3;
-    height: 40vh;
+    height: 30vh;
 
 
     h3 {
@@ -381,14 +381,11 @@ footer {
 }
 
 footer a{
-
     color: #482728;
 }
 
 footer div {
     width: 33%;
-    padding-top: 80px;
-    border: 2px solid;
 }
 
 #logoDivFooter {
